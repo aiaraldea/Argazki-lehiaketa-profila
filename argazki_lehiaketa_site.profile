@@ -88,8 +88,8 @@ function argazki_lehiaketa_site_profile_tasks(&$task, $url) {
   // Just in case some of the future tasks adds some output
   $output = '';
 
-  if ($task == 'profile') {
-/*     $modules = _argazki_lehiaketa_site_core_modules(); */
+/*   if ($task == 'profile') {
+    $modules = _argazki_lehiaketa_site_core_modules(); 
     $files = module_rebuild_cache();
     $operations = array();
     foreach ($modules as $module) {
@@ -107,7 +107,7 @@ function argazki_lehiaketa_site_profile_tasks(&$task, $url) {
     batch_set($batch);
     batch_process($url, $url);
   }
-
+*/
   if ($task == 'argazki_lehiaketa_site-configure') {
 
     // Other variables worth setting.
