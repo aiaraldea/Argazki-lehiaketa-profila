@@ -55,8 +55,7 @@ function argazki_lehiaketa_site_profile_modules() {
     'captcha',                    
     'views',                        
     'views_fluid_grid',  
-    'views_ui',                  
-    'garland',                    
+    'views_ui',                    
     'admin',             
     'adminrole',    
     'content',         
@@ -67,7 +66,7 @@ function argazki_lehiaketa_site_profile_modules() {
     'ctools',      
     'context',   
 // Argazki lehiaketa
-    'argazki_lehiaketa_site',
+    'argazki_lehiaketa',
   );
   return $modules;
 }
