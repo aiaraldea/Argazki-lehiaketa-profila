@@ -89,7 +89,7 @@ function argazki_lehiaketa_site_profile_tasks(&$task, $url) {
   $output = '';
 
   if ($task == 'profile') {
-    $modules = _argazki_lehiaketa_site_core_modules();
+/*     $modules = _argazki_lehiaketa_site_core_modules(); */
     $files = module_rebuild_cache();
     $operations = array();
     foreach ($modules as $module) {
