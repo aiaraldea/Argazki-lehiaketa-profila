@@ -28,6 +28,11 @@ projects[service_links][version] = "2.0"
 projects[strongarm][version] = "2.0"
 projects[token][version] = "1.15"
 projects[views][version] = "2.12"
+projects[views_groupby][version] = "1.0-rc2"
+projects[views_groupby][patch][] = "http://drupal.org/files/issues/views_groupby-651546-6.patch"
 projects[views_fluid_grid][version] = "1.1"
 projects[argazki_lehiaketa][version] = "1.0-alpha1"
 projects[argazki_lehiaketa][location] = http://burdinola.aiaraldea.com/fserver/fserver
+
+
+
